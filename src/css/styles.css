@@ -1,3 +1,37 @@
 .open {
     color: blue;
 }
+
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px; /* Ustal szerokość karuzeli */
+    margin: auto; /* Wyśrodkuj karuzelę */
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: 400px; /* Wysokość karuzeli */
+    overflow: hidden; /* Ukrywa elementy wykraczające poza kontener */
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Dopasowanie do kontenera przy zachowaniu proporcji */ 
+  }
+  @media (max-width: 767px) {
+    .container-home {
+      width: 100%; /* Dopasowanie szerokości do ekranu na urządzeniach mobilnych */
+      padding: 0 10px; /* Opcjonalne marginesy wewnętrzne po bokach */
+    }
+  
+    .carousel-inner {
+      height: 250px; /* Mniejsza wysokość karuzeli na mniejszych ekranach */
+    }
+    .clown-pic {
+        width: 100%;
+    }
+  }

@@ -3,11 +3,14 @@ import PIC1 from "../img/caru1.jpg";
 import SEA from "../img/sea.jpg"
 import SEA1 from "../img/sea1.jpg"
 import SEA2 from "../img/sea2.jpg"
+import "../css/styles.css";
 
 export const Home = () => {
+    const now = new Date().toString();
   return (
     <>
       <div className="container-home">
+        <div className="timer">{now}</div>
         <div
           id="carouselExampleControls"
           className="carousel slide " 

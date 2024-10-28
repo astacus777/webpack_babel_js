@@ -5,6 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Greeting } from "./components/Greeting";
 import { Footer } from "./components/Footer";
 import { Login } from "./components/LogIn"
+import { Contacts } from "./components/Contacts"
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/greeting" element={<Greeting />} />
+          <Route path="/contacts" element={<Contacts />} />
           {/* Dodaj więcej tras, jeśli potrzebujesz */}
         </Routes>
       </div>

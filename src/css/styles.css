@@ -1,25 +1,18 @@
 .open {
     color: blue;
 }
-.noto-sans-elbasan-regular {
-    font-family: "Noto Sans Elbasan", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-
 
 .container-home {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 600px; /* Ustal szerokość karuzeli */
+    width: 800px; /* Ustal szerokość karuzeli */
     margin: auto; /* Wyśrodkuj karuzelę */
   }
   
   .carousel-inner {
     width: 100%;
-    height: 400px; /* Wysokość karuzeli */
+    height: 450px; /* Wysokość karuzeli */
     overflow: hidden; /* Ukrywa elementy wykraczające poza kontener */
   }
   
@@ -42,10 +35,10 @@
     }
   }
   .timer {
-    font-family: "Noto Sans Elbasan", sans-serif;
-    font-weight: 400;
+    font-family: "Danfo", sans-serif;
+    font-weight: 200;
     font-style: normal;
     display: flex;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }

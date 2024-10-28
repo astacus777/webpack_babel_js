@@ -1,8 +1,8 @@
 import PICTURE from "../img/pic1.png";
 import PIC1 from "../img/caru1.jpg";
-import SEA from "../img/sea.jpg"
-import SEA1 from "../img/sea1.jpg"
-import SEA2 from "../img/sea2.jpg"
+import SEA from "../img/Halloween1.jpg"
+import SEA1 from "../img/Halloween3.jpg"
+import SEA2 from "../img/Halloween4.jpg"
 import "../css/styles.css";
 
 export const Home = () => {
